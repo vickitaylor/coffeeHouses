@@ -1,0 +1,46 @@
+
+
+/* creating a background and added font to the page */
+body {
+    background: #e0ffff;
+    font-family: 'Lato', sans-serif;
+}
+
+/* styling for header */
+header {
+    font-weight: bold;
+    font-size: 40px;
+    color: blueviolet
+}
+
+/* for the section class */
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    ;
+}
+
+/* for the article class */
+.shop {
+    flex-basis: 16%;
+    border: solid 2px teal;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    color: honeydew;
+    background: mediumturquoise;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* centering the header */
+.pageHeader {
+    text-align: center;
+}
+
+.shop-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
