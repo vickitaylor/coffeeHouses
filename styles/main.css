@@ -44,3 +44,10 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: medium;
 }
+
+.image {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    width: 50rem;
+}
