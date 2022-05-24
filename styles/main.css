@@ -3,7 +3,7 @@
 /* creating a background and added font to the page */
 body {
     background: #e0ffff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;    
 }
 
 /* styling for header */
@@ -46,8 +46,13 @@ header {
 }
 
 .image {
+    width: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.main { 
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    width: 50rem;
 }
